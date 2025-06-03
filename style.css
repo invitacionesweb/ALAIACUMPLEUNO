@@ -83,7 +83,7 @@ header .header-info {
     justify-content: center;
     text-align: center;
     gap: -3px;
-    padding-bottom: 30px;
+    padding-bottom: 120px;
 }
 .infoimportante a {
     margin: 0px 0 0 0;
@@ -180,6 +180,24 @@ audio::-webkit-media-controls-current-time-display {
      color: var(--color-terciario);
      background-color: var(--color-principal);
      border: 1px solid var(--color-terciario);
+     padding: 10px 30PX;
+     text-align: center;
+     text-decoration: none;
+ }
+
+ .boton3 {
+    border: 1px solid var(--color-secundario);
+    background-color: var(--color-secundario);
+    color: var(--color-principal);
+    padding: 10px 30PX;
+    text-decoration: none;
+    margin-top:0px;
+    border-radius: 50px;
+ }
+ .boton3:hover {
+     color: var(--color-secundario);
+     background-color: transparent;
+     border: 1px solid var(--color-secundario);
      padding: 10px 30PX;
      text-align: center;
      text-decoration: none;
